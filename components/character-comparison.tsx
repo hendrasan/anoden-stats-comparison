@@ -72,10 +72,11 @@ export default function CharacterComparison() {
             </div>
 
             <div className="p-6 border rounded-lg">
-                <h2 className="mb-4">Character Stat Comparison</h2>
                 <p>Select up to 4 characters to compare their stats.</p>
 
-                <RadarChartComparison characters={selectedCharacters} />
+                <div className="flex flex-col items-center justify-center w-full h-full p-4">
+                    <RadarChartComparison characters={selectedCharacters} />
+                </div>
             </div>
         </div>
     )

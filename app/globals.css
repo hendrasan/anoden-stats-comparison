@@ -120,3 +120,8 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.recharts-polar-angle-axis-tick-value {
+  @apply font-bold;
+}

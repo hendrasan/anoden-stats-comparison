@@ -45,14 +45,6 @@ export default function RadarChartComparison({ characters }: RadarChartCompariso
         return dataPoint;
     });
 
-    // const chartConfig = characters.reduce((config, character) => {
-    //     config[character.id] = {
-    //         label: character.label,
-    //         color: character.color,
-    //     };
-    //     return config;
-    // }, {} as ChartConfig);
-
     const chartConfig = characters.reduce((config, character, index) => {
         config[`char${index + 1}`] = {
             label: character.name,
@@ -61,42 +53,26 @@ export default function RadarChartComparison({ characters }: RadarChartCompariso
         return config;
     }, {} as ChartConfig);
 
-    // const chartConfig = {
-    //   char1: {
-    //     label: "Character 1",
-    //     color: "hsl(var(--chart-1))",
-    //   },
-    //   char2: {
-    //     label: "Character 2",
-    //     color: "hsl(var(--chart-2))",
-    //   },
-    // } satisfies ChartConfig
-
-
     return (
-        <div className="flex flex-col items-center justify-center w-full h-full p-4">
-            {/* <h2 className="text-lg font-bold">Radar Chart Comparison</h2> */}
-
-            <ChartContainer
-                config={chartConfig}
-                className="mx-auto aspect-square min-h-[320px]"
-            >
-                <RadarChart data={data}>
-                    <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
-                    <PolarAngleAxis dataKey="stat" />
-                    <PolarRadiusAxis domain={[0, 350]} angle={30} />
-                    <PolarGrid />
-                    {characters.map((character, index) => (
-                        <Radar
-                            key={character.name}
-                            name={character.name}
-                            dataKey={character.name}
-                            fill={`var(--color-char${index + 1})`}
-                            fillOpacity={0.6}
-                        />
-                    ))}
-                </RadarChart>
-            </ChartContainer>
-        </div>
+        <ChartContainer
+            config={chartConfig}
+            className="mx-auto aspect-square min-h-[320px]"
+        >
+            <RadarChart data={data}>
+                <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
+                <PolarAngleAxis dataKey="stat" />
+                <PolarRadiusAxis domain={[0, 350]} angle={30} />
+                <PolarGrid />
+                {characters.map((character, index) => (
+                    <Radar
+                        key={character.name}
+                        name={character.name}
+                        dataKey={character.name}
+                        fill={`var(--color-char${index + 1})`}
+                        fillOpacity={0.6}
+                    />
+                ))}
+            </RadarChart>
+        </ChartContainer>
     )
 }
