@@ -65,7 +65,7 @@ export default function RadarChartComparison({ characters }: RadarChartCompariso
                 <PolarGrid />
                 {characters.map((character, index) => (
                     <Radar
-                        key={character.name}
+                        key={character.name + index}
                         name={character.name}
                         dataKey={character.name}
                         fill={`var(--color-char${index + 1})`}
