@@ -67,7 +67,7 @@ export default function RadarChartComparison({ characters, includeHpMp, lsPoints
     return (
         <ChartContainer
             config={chartConfig}
-            className="mx-auto aspect-square min-h-[320px]"
+            className="mx-auto aspect-square min-h-[250px] md:min-h-[320px]"
         >
             <RadarChart data={data}>
                 <ChartTooltip cursor={false} content={<ChartTooltipContent />} />

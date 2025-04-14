@@ -50,6 +50,8 @@ export default function CharacterComparison() {
 
     return (
         <div className="space-y-8">
+            <p>Select up to 4 characters to compare their stats.</p>
+
             <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
                 {selectedCharacters.map((character, index) => (
                     <div key={index} className="flex items-center gap-2">
@@ -83,12 +85,13 @@ export default function CharacterComparison() {
             </div>
 
             <div className="p-6 border rounded-lg">
-                <div className="flex justify-between mb-6">
-                    <p>Select up to 4 characters to compare their stats.</p>
+                <div className="flex flex-col md:flex-row gap-4 justify-between mb-6">
+                    {/* <p>Select up to 4 characters to compare their stats.</p> */}
 
-                    <div>
+                    <div className="flex items-center gap-4 md:ml-auto">
+                        <span>Light/Shadow Points:</span>
                         <Select value={selectedLSPoints} onValueChange={(value) => setSelectedLSPoints(value as StatLevelKey)}>
-                            <SelectTrigger className="w-[220px]">
+                            <SelectTrigger className="w-[100px] md:w-[220px]">
                                 <SelectValue placeholder="Select Light/Shadow Points" />
                             </SelectTrigger>
                             <SelectContent>
@@ -107,20 +110,18 @@ export default function CharacterComparison() {
                                 <SelectItem value="ls255sa">255 SA</SelectItem>
                             </SelectContent>
                         </Select>
-
                     </div>
-
                 </div>
 
-                <div className="flex md:flex-row md:items-center gap-4">
+                <div className="flex flex-col md:flex-row md:items-center gap-4">
                     {!includeHpMp && (
-                        <div className="flex-1 w-full flex flex-col gap-4">
+                        <div className="flex-1 w-full flex flex-col gap-4 order-2 md:order-1">
                             <HpMpComparisonCard characters={selectedCharacters} lsPoints={selectedLSPoints} />
                             <HpMpComparisonCard characters={selectedCharacters} isMp={true} lsPoints={selectedLSPoints} />
                         </div>
                     )}
 
-                    <div className="flex-1 flex flex-col items-center justify-center w-full h-full p-4">
+                    <div className="flex-1 flex flex-col items-center justify-center w-full h-full p-4 order-1 md:order-2">
                         <RadarChartComparison characters={selectedCharacters} includeHpMp={includeHpMp} lsPoints={selectedLSPoints} />
 
                         <div className="flex items-center space-x-2">
