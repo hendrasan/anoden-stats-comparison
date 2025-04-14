@@ -8,6 +8,7 @@ import { PlusCircle, Trash2 } from "lucide-react";
 import CharacterSelector from "./character-selector";
 import RadarChartComparison from "./radar-chart-comparison";
 import { Checkbox } from "./ui/checkbox";
+import HpMpComparisonCard from "./hp-mp-comparison.card";
 
 export default function CharacterComparison() {
     const [includeHpMp, setIncludeHpMp] = useState(false);
@@ -74,7 +75,7 @@ export default function CharacterComparison() {
             </div>
 
             <div className="p-6 border rounded-lg">
-                <div className="flex justify-between">
+                <div className="flex justify-between mb-6">
                     <p>Select up to 4 characters to compare their stats.</p>
 
                     <div className="flex items-center space-x-2">
@@ -88,9 +89,19 @@ export default function CharacterComparison() {
                     </div>
                 </div>
 
-                <div className="flex flex-col items-center justify-center w-full h-full p-4">
-                    <RadarChartComparison characters={selectedCharacters} includeHpMp={includeHpMp} />
+                <div className="flex md:flex-row md:items-center gap-4">
+                    {!includeHpMp && (
+                        <div className="flex-1 w-full flex flex-col gap-4">
+                            <HpMpComparisonCard characters={selectedCharacters} />
+                            <HpMpComparisonCard characters={selectedCharacters} isMp={true} />
+                        </div>
+                    )}
+
+                    <div className="flex-1 flex flex-col items-center justify-center w-full h-full p-4">
+                        <RadarChartComparison characters={selectedCharacters} includeHpMp={includeHpMp} />
+                    </div>
                 </div>
+
             </div>
         </div>
     )
