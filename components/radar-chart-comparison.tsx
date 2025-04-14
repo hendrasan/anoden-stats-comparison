@@ -1,18 +1,26 @@
 'use client'
 
-import { Character } from "@/types/character"
+import { Character, StatLevelKey, Stats } from "@/types/character"
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "./ui/chart";
 import { PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart } from "recharts";
+import { getMaxStatValuesPerLevelKey } from "@/data/characters";
 
 interface RadarChartComparisonProps {
     characters: Character[] | undefined;
     includeHpMp?: boolean;
+    lsPoints: StatLevelKey;
 }
 
-export default function RadarChartComparison({ characters, includeHpMp }: RadarChartComparisonProps) {
+export default function RadarChartComparison({ characters, includeHpMp, lsPoints }: RadarChartComparisonProps) {
     if (!characters || characters.length === 0) {
         return null;
     }
+
+    const maxStatValuesPerLevelKey = getMaxStatValuesPerLevelKey();
+
+    const maxHPValues = maxStatValuesPerLevelKey[lsPoints].HP;
+    const maxMPValues = maxStatValuesPerLevelKey[lsPoints].MP;
+    const maxMainStatValues = maxStatValuesPerLevelKey[lsPoints].mainStat;
 
     const statsKey = [
         'PWR',
@@ -21,8 +29,6 @@ export default function RadarChartComparison({ characters, includeHpMp }: RadarC
         'END',
         'SPR',
         'LCK',
-        // 'HP',
-        // 'MP',
     ];
 
     if (includeHpMp) {
@@ -37,13 +43,13 @@ export default function RadarChartComparison({ characters, includeHpMp }: RadarC
 
         characters.forEach((character) => {
             if (key == "HP") {
-                dataPoint[character.name] = character.HP / 8800 * 350;
-                dataPoint[`${character.name}Original`] = character.HP;
+                dataPoint[character.name] = character.stats[lsPoints].HP / maxHPValues * maxMainStatValues;
+                dataPoint[`${character.name}Original`] = character.stats[lsPoints].HP;
             } else if (key == "MP") {
-                dataPoint[character.name] = character.MP / 4000 * 350;
-                dataPoint[`${character.name}Original`] = character.MP;
+                dataPoint[character.name] = character.stats[lsPoints].MP / maxMPValues * maxMainStatValues;
+                dataPoint[`${character.name}Original`] = character.stats[lsPoints].MP;
             } else {
-                dataPoint[character.name] = character[key as keyof Character];
+                dataPoint[character.name] = character.stats[lsPoints][key as keyof Stats];
             }
         });
 
@@ -66,7 +72,7 @@ export default function RadarChartComparison({ characters, includeHpMp }: RadarC
             <RadarChart data={data}>
                 <ChartTooltip cursor={false} content={<ChartTooltipContent />} />
                 <PolarAngleAxis dataKey="stat" />
-                <PolarRadiusAxis domain={[0, 350]} angle={30} />
+                <PolarRadiusAxis domain={[0, maxMainStatValues]} angle={30} />
                 <PolarGrid />
                 {characters.map((character, index) => (
                     <Radar

@@ -1,7 +1,7 @@
 "use client"
 
 import { characters } from "@/data/characters";
-import { Character } from "@/types/character";
+import { Character, StatLevelKey } from "@/types/character";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { PlusCircle, Trash2 } from "lucide-react";
@@ -9,9 +9,17 @@ import CharacterSelector from "./character-selector";
 import RadarChartComparison from "./radar-chart-comparison";
 import { Checkbox } from "./ui/checkbox";
 import HpMpComparisonCard from "./hp-mp-comparison.card";
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+} from "@/components/ui/select"
 
 export default function CharacterComparison() {
     const [includeHpMp, setIncludeHpMp] = useState(false);
+    const [selectedLSPoints, setSelectedLSPoints] = useState<StatLevelKey>("base");
     const [selectedCharacters, setSelectedCharacters] = useState<Character[]>([characters[0], characters[1]]);
 
     const maxCharactersReached = selectedCharacters.length >= 4;
@@ -78,27 +86,52 @@ export default function CharacterComparison() {
                 <div className="flex justify-between mb-6">
                     <p>Select up to 4 characters to compare their stats.</p>
 
-                    <div className="flex items-center space-x-2">
-                        <Checkbox id="separate" checked={includeHpMp} onCheckedChange={(checked) => setIncludeHpMp(checked === true)} />
-                        <label
-                            htmlFor="separate"
-                            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
-                        >
-                            Include HP and MP in chart
-                        </label>
+                    <div>
+                        <Select value={selectedLSPoints} onValueChange={(value) => setSelectedLSPoints(value as StatLevelKey)}>
+                            <SelectTrigger className="w-[220px]">
+                                <SelectValue placeholder="Select Light/Shadow Points" />
+                            </SelectTrigger>
+                            <SelectContent>
+                                <SelectItem value="base">Base</SelectItem>
+                                <SelectItem value="ls5">5</SelectItem>
+                                <SelectItem value="ls15">15</SelectItem>
+                                <SelectItem value="ls30">30</SelectItem>
+                                <SelectItem value="ls50">50</SelectItem>
+                                <SelectItem value="ls75">75</SelectItem>
+                                <SelectItem value="ls105">105</SelectItem>
+                                <SelectItem value="ls140">140</SelectItem>
+                                <SelectItem value="ls175">175</SelectItem>
+                                <SelectItem value="ls215">215</SelectItem>
+                                <SelectItem value="ls255">255</SelectItem>
+                                <SelectItem value="ls80sa">80 SA</SelectItem>
+                                <SelectItem value="ls255sa">255 SA</SelectItem>
+                            </SelectContent>
+                        </Select>
+
                     </div>
+
                 </div>
 
                 <div className="flex md:flex-row md:items-center gap-4">
                     {!includeHpMp && (
                         <div className="flex-1 w-full flex flex-col gap-4">
-                            <HpMpComparisonCard characters={selectedCharacters} />
-                            <HpMpComparisonCard characters={selectedCharacters} isMp={true} />
+                            <HpMpComparisonCard characters={selectedCharacters} lsPoints={selectedLSPoints} />
+                            <HpMpComparisonCard characters={selectedCharacters} isMp={true} lsPoints={selectedLSPoints} />
                         </div>
                     )}
 
                     <div className="flex-1 flex flex-col items-center justify-center w-full h-full p-4">
-                        <RadarChartComparison characters={selectedCharacters} includeHpMp={includeHpMp} />
+                        <RadarChartComparison characters={selectedCharacters} includeHpMp={includeHpMp} lsPoints={selectedLSPoints} />
+
+                        <div className="flex items-center space-x-2">
+                            <Checkbox id="separate" checked={includeHpMp} onCheckedChange={(checked) => setIncludeHpMp(checked === true)} />
+                            <label
+                                htmlFor="separate"
+                                className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                            >
+                                Include HP and MP in chart
+                            </label>
+                        </div>
                     </div>
                 </div>
 
