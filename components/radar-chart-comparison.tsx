@@ -6,9 +6,10 @@ import { PolarAngleAxis, PolarGrid, PolarRadiusAxis, Radar, RadarChart } from "r
 
 interface RadarChartComparisonProps {
     characters: Character[] | undefined;
+    includeHpMp?: boolean;
 }
 
-export default function RadarChartComparison({ characters }: RadarChartComparisonProps) {
+export default function RadarChartComparison({ characters, includeHpMp }: RadarChartComparisonProps) {
     if (!characters || characters.length === 0) {
         return null;
     }
@@ -24,6 +25,10 @@ export default function RadarChartComparison({ characters }: RadarChartCompariso
         // 'MP',
     ];
 
+    if (includeHpMp) {
+        statsKey.push('HP', 'MP');
+    }
+
     const data = statsKey.map((key) => {
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         const dataPoint: Record<string, any> = {
@@ -32,10 +37,10 @@ export default function RadarChartComparison({ characters }: RadarChartCompariso
 
         characters.forEach((character) => {
             if (key == "HP") {
-                dataPoint[character.name] = character.HP / 4500 * 350;
+                dataPoint[character.name] = character.HP / 8800 * 350;
                 dataPoint[`${character.name}Original`] = character.HP;
             } else if (key == "MP") {
-                dataPoint[character.name] = character.MP / 2200 * 350;
+                dataPoint[character.name] = character.MP / 4000 * 350;
                 dataPoint[`${character.name}Original`] = character.MP;
             } else {
                 dataPoint[character.name] = character[key as keyof Character];

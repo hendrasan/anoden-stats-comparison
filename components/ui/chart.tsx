@@ -134,6 +134,7 @@ function ChartTooltipContent({
     }
 
     const [item] = payload
+    console.log('item', item)
     const key = `${labelKey || item?.dataKey || item?.name || "value"}`
     const itemConfig = getPayloadConfigFromPayload(config, item, key)
     const value =
@@ -167,6 +168,8 @@ function ChartTooltipContent({
   if (!active || !payload?.length) {
     return null
   }
+
+  console.log('payload', payload)
 
   const nestLabel = payload.length === 1 && indicator !== "dot"
 
@@ -234,7 +237,7 @@ function ChartTooltipContent({
                     </div>
                     {item.value && (
                       <span className="text-foreground font-mono font-medium tabular-nums">
-                        {item.value.toLocaleString()}
+                        {item.payload[`${item.name}Original`] !== undefined ? item.payload[`${item.name}Original`] : item.value.toLocaleString()}
                       </span>
                     )}
                   </div>

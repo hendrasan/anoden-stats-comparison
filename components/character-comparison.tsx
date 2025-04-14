@@ -7,8 +7,10 @@ import { Button } from "./ui/button";
 import { PlusCircle, Trash2 } from "lucide-react";
 import CharacterSelector from "./character-selector";
 import RadarChartComparison from "./radar-chart-comparison";
+import { Checkbox } from "./ui/checkbox";
 
 export default function CharacterComparison() {
+    const [includeHpMp, setIncludeHpMp] = useState(false);
     const [selectedCharacters, setSelectedCharacters] = useState<Character[]>([characters[0], characters[1]]);
 
     const maxCharactersReached = selectedCharacters.length >= 4;
@@ -72,10 +74,22 @@ export default function CharacterComparison() {
             </div>
 
             <div className="p-6 border rounded-lg">
-                <p>Select up to 4 characters to compare their stats.</p>
+                <div className="flex justify-between">
+                    <p>Select up to 4 characters to compare their stats.</p>
+
+                    <div className="flex items-center space-x-2">
+                        <Checkbox id="separate" checked={includeHpMp} onCheckedChange={(checked) => setIncludeHpMp(checked === true)} />
+                        <label
+                            htmlFor="separate"
+                            className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
+                        >
+                            Include HP and MP in chart
+                        </label>
+                    </div>
+                </div>
 
                 <div className="flex flex-col items-center justify-center w-full h-full p-4">
-                    <RadarChartComparison characters={selectedCharacters} />
+                    <RadarChartComparison characters={selectedCharacters} includeHpMp={includeHpMp} />
                 </div>
             </div>
         </div>
