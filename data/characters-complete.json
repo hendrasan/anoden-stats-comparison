@@ -135,7 +135,7 @@
     }
   },
   {
-    "name": "Philo AS",
+    "name": "Philo AS",
     "stats": {
       "base": {
         "PWR": 311,
@@ -810,7 +810,7 @@
     }
   },
   {
-    "name": "Lingli AS",
+    "name": "Lingli AS",
     "stats": {
       "base": {
         "PWR": 263,
@@ -1215,7 +1215,7 @@
     }
   },
   {
-    "name": "Komachi AS",
+    "name": "Komachi AS",
     "stats": {
       "base": {
         "PWR": 259,
@@ -1350,7 +1350,7 @@
     }
   },
   {
-    "name": "Toova ES",
+    "name": "Toova ES",
     "stats": {
       "base": {
         "PWR": 256,
@@ -1485,7 +1485,7 @@
     }
   },
   {
-    "name": "Rufus AS",
+    "name": "Rufus AS",
     "stats": {
       "base": {
         "PWR": 255,
@@ -2160,7 +2160,7 @@
     }
   },
   {
-    "name": "Felmina ES",
+    "name": "Felmina ES",
     "stats": {
       "base": {
         "PWR": 247,
@@ -2430,7 +2430,7 @@
     }
   },
   {
-    "name": "Cynthia AS",
+    "name": "Cynthia AS",
     "stats": {
       "base": {
         "PWR": 246,
@@ -2565,7 +2565,7 @@
     }
   },
   {
-    "name": "Dewey AS",
+    "name": "Dewey AS",
     "stats": {
       "base": {
         "PWR": 246,
@@ -2700,7 +2700,7 @@
     }
   },
   {
-    "name": "Zilva AS",
+    "name": "Zilva AS",
     "stats": {
       "base": {
         "PWR": 246,
@@ -2970,7 +2970,7 @@
     }
   },
   {
-    "name": "Azami AS",
+    "name": "Azami AS",
     "stats": {
       "base": {
         "PWR": 245,
@@ -3105,7 +3105,7 @@
     }
   },
   {
-    "name": "Noahxis AS",
+    "name": "Noahxis AS",
     "stats": {
       "base": {
         "PWR": 245,
@@ -3375,7 +3375,7 @@
     }
   },
   {
-    "name": "Minalca AS",
+    "name": "Minalca AS",
     "stats": {
       "base": {
         "PWR": 243,
@@ -3645,7 +3645,7 @@
     }
   },
   {
-    "name": "Garambarrel AS",
+    "name": "Garambarrel AS",
     "stats": {
       "base": {
         "PWR": 242,
@@ -3780,7 +3780,7 @@
     }
   },
   {
-    "name": "Thillelille AS",
+    "name": "Thillelille AS",
     "stats": {
       "base": {
         "PWR": 242,
@@ -4455,7 +4455,7 @@
     }
   },
   {
-    "name": "Myunfa AS",
+    "name": "Myunfa AS",
     "stats": {
       "base": {
         "PWR": 241,
@@ -4860,7 +4860,7 @@
     }
   },
   {
-    "name": "Lokido AS",
+    "name": "Lokido AS",
     "stats": {
       "base": {
         "PWR": 238,
@@ -4995,7 +4995,7 @@
     }
   },
   {
-    "name": "Premaya AS",
+    "name": "Premaya AS",
     "stats": {
       "base": {
         "PWR": 238,
@@ -5130,7 +5130,7 @@
     }
   },
   {
-    "name": "Thillelille ES",
+    "name": "Thillelille ES",
     "stats": {
       "base": {
         "PWR": 238,
@@ -5265,7 +5265,7 @@
     }
   },
   {
-    "name": "Pizzica AS",
+    "name": "Pizzica AS",
     "stats": {
       "base": {
         "PWR": 237,
@@ -5535,7 +5535,7 @@
     }
   },
   {
-    "name": "Hardy AS",
+    "name": "Hardy AS",
     "stats": {
       "base": {
         "PWR": 235,
@@ -5670,7 +5670,7 @@
     }
   },
   {
-    "name": "Tsubame AS",
+    "name": "Tsubame AS",
     "stats": {
       "base": {
         "PWR": 235,
@@ -5805,7 +5805,7 @@
     }
   },
   {
-    "name": "Zeviro AS",
+    "name": "Zeviro AS",
     "stats": {
       "base": {
         "PWR": 235,
@@ -6210,7 +6210,7 @@
     }
   },
   {
-    "name": "Nagi AS",
+    "name": "Nagi AS",
     "stats": {
       "base": {
         "PWR": 234,
@@ -6345,7 +6345,7 @@
     }
   },
   {
-    "name": "Ewan AS",
+    "name": "Ewan AS",
     "stats": {
       "base": {
         "PWR": 234,
@@ -6480,7 +6480,7 @@
     }
   },
   {
-    "name": "Lovely AS",
+    "name": "Lovely AS",
     "stats": {
       "base": {
         "PWR": 233,
@@ -6615,7 +6615,7 @@
     }
   },
   {
-    "name": "Suzette AS",
+    "name": "Suzette AS",
     "stats": {
       "base": {
         "PWR": 233,
@@ -6750,7 +6750,7 @@
     }
   },
   {
-    "name": "Ilulu AS",
+    "name": "Ilulu AS",
     "stats": {
       "base": {
         "PWR": 233,
@@ -6885,7 +6885,7 @@
     }
   },
   {
-    "name": "Nikeh AS",
+    "name": "Nikeh AS",
     "stats": {
       "base": {
         "PWR": 233,
@@ -7020,7 +7020,7 @@
     }
   },
   {
-    "name": "Suzette ES",
+    "name": "Suzette ES",
     "stats": {
       "base": {
         "PWR": 233,
@@ -7425,7 +7425,7 @@
     }
   },
   {
-    "name": "Shigure ES",
+    "name": "Shigure ES",
     "stats": {
       "base": {
         "PWR": 233,
@@ -7560,7 +7560,7 @@
     }
   },
   {
-    "name": "Senya AS",
+    "name": "Senya AS",
     "stats": {
       "base": {
         "PWR": 233,
@@ -7695,7 +7695,7 @@
     }
   },
   {
-    "name": "Biaka AS",
+    "name": "Biaka AS",
     "stats": {
       "base": {
         "PWR": 232,
@@ -7830,7 +7830,7 @@
     }
   },
   {
-    "name": "Bertrand AS",
+    "name": "Bertrand AS",
     "stats": {
       "base": {
         "PWR": 232,
@@ -8235,7 +8235,7 @@
     }
   },
   {
-    "name": "Victor AS",
+    "name": "Victor AS",
     "stats": {
       "base": {
         "PWR": 231,
@@ -8505,7 +8505,7 @@
     }
   },
   {
-    "name": "Sesta AS",
+    "name": "Sesta AS",
     "stats": {
       "base": {
         "PWR": 231,
@@ -8775,7 +8775,7 @@
     }
   },
   {
-    "name": "Shion AS",
+    "name": "Shion AS",
     "stats": {
       "base": {
         "PWR": 231,
@@ -8906,6 +8906,141 @@
         "LCK": 226,
         "HP": 3363,
         "MP": 614
+      }
+    }
+  },
+  {
+    "name": "Aldo AS",
+    "stats": {
+      "base": {
+        "PWR": 231,
+        "INT": 133,
+        "SPD": 227,
+        "SPR": 178,
+        "END": 192,
+        "LCK": 140,
+        "HP": 3444,
+        "MP": 413
+      },
+      "ls5": {
+        "PWR": 231,
+        "INT": 133,
+        "SPD": 232,
+        "SPR": 178,
+        "END": 192,
+        "LCK": 140,
+        "HP": 3444,
+        "MP": 413
+      },
+      "ls15": {
+        "PWR": 231,
+        "INT": 133,
+        "SPD": 232,
+        "SPR": 178,
+        "END": 202,
+        "LCK": 140,
+        "HP": 3444,
+        "MP": 413
+      },
+      "ls30": {
+        "PWR": 231,
+        "INT": 133,
+        "SPD": 232,
+        "SPR": 178,
+        "END": 202,
+        "LCK": 140,
+        "HP": 3644,
+        "MP": 413
+      },
+      "ls50": {
+        "PWR": 231,
+        "INT": 133,
+        "SPD": 232,
+        "SPR": 178,
+        "END": 202,
+        "LCK": 155,
+        "HP": 3644,
+        "MP": 413
+      },
+      "ls75": {
+        "PWR": 246,
+        "INT": 133,
+        "SPD": 232,
+        "SPR": 178,
+        "END": 202,
+        "LCK": 155,
+        "HP": 3644,
+        "MP": 413
+      },
+      "ls105": {
+        "PWR": 246,
+        "INT": 133,
+        "SPD": 252,
+        "SPR": 178,
+        "END": 202,
+        "LCK": 155,
+        "HP": 3644,
+        "MP": 413
+      },
+      "ls140": {
+        "PWR": 246,
+        "INT": 133,
+        "SPD": 252,
+        "SPR": 178,
+        "END": 222,
+        "LCK": 155,
+        "HP": 3644,
+        "MP": 413
+      },
+      "ls175": {
+        "PWR": 246,
+        "INT": 133,
+        "SPD": 252,
+        "SPR": 178,
+        "END": 222,
+        "LCK": 155,
+        "HP": 4044,
+        "MP": 413
+      },
+      "ls215": {
+        "PWR": 246,
+        "INT": 133,
+        "SPD": 252,
+        "SPR": 178,
+        "END": 222,
+        "LCK": 180,
+        "HP": 4044,
+        "MP": 413
+      },
+      "ls255": {
+        "PWR": 286,
+        "INT": 143,
+        "SPD": 262,
+        "SPR": 188,
+        "END": 232,
+        "LCK": 190,
+        "HP": 4044,
+        "MP": 413
+      },
+      "ls80sa": {
+        "PWR": 311,
+        "INT": 173,
+        "SPD": 292,
+        "SPR": 218,
+        "END": 257,
+        "LCK": 215,
+        "HP": 3644,
+        "MP": 413
+      },
+      "ls255sa": {
+        "PWR": 351,
+        "INT": 183,
+        "SPD": 322,
+        "SPR": 228,
+        "END": 287,
+        "LCK": 250,
+        "HP": 4044,
+        "MP": 413
       }
     }
   },
@@ -9585,7 +9720,7 @@
     }
   },
   {
-    "name": "Hismena AS",
+    "name": "Hismena AS",
     "stats": {
       "base": {
         "PWR": 229,
@@ -9720,7 +9855,7 @@
     }
   },
   {
-    "name": "Isuka ES",
+    "name": "Isuka ES",
     "stats": {
       "base": {
         "PWR": 228,
@@ -10125,7 +10260,7 @@
     }
   },
   {
-    "name": "Miyu AS",
+    "name": "Miyu AS",
     "stats": {
       "base": {
         "PWR": 228,
@@ -10260,7 +10395,7 @@
     }
   },
   {
-    "name": "Tiramisu AS",
+    "name": "Tiramisu AS",
     "stats": {
       "base": {
         "PWR": 228,
@@ -10395,7 +10530,7 @@
     }
   },
   {
-    "name": "Elga AS",
+    "name": "Elga AS",
     "stats": {
       "base": {
         "PWR": 227,
@@ -10665,7 +10800,7 @@
     }
   },
   {
-    "name": "Tsukiha ES",
+    "name": "Tsukiha ES",
     "stats": {
       "base": {
         "PWR": 227,
@@ -11070,7 +11205,7 @@
     }
   },
   {
-    "name": "Hozuki AS",
+    "name": "Hozuki AS",
     "stats": {
       "base": {
         "PWR": 226,
@@ -11205,7 +11340,7 @@
     }
   },
   {
-    "name": "Melina ES",
+    "name": "Melina ES",
     "stats": {
       "base": {
         "PWR": 226,
@@ -11475,7 +11610,7 @@
     }
   },
   {
-    "name": "Cerrine AS",
+    "name": "Cerrine AS",
     "stats": {
       "base": {
         "PWR": 226,
@@ -11745,7 +11880,7 @@
     }
   },
   {
-    "name": "Alma AS",
+    "name": "Alma AS",
     "stats": {
       "base": {
         "PWR": 225,
@@ -11880,7 +12015,7 @@
     }
   },
   {
-    "name": "Daisy AS",
+    "name": "Daisy AS",
     "stats": {
       "base": {
         "PWR": 225,
@@ -12150,7 +12285,7 @@
     }
   },
   {
-    "name": "Shanie AS",
+    "name": "Shanie AS",
     "stats": {
       "base": {
         "PWR": 224,
@@ -12285,7 +12420,7 @@
     }
   },
   {
-    "name": "Anabel AS",
+    "name": "Anabel AS",
     "stats": {
       "base": {
         "PWR": 224,
@@ -12960,7 +13095,7 @@
     }
   },
   {
-    "name": "Shigure AS",
+    "name": "Shigure AS",
     "stats": {
       "base": {
         "PWR": 223,
@@ -13230,7 +13365,7 @@
     }
   },
   {
-    "name": "Shannon AS",
+    "name": "Shannon AS",
     "stats": {
       "base": {
         "PWR": 222,
@@ -13500,7 +13635,7 @@
     }
   },
   {
-    "name": "Mistrare AS",
+    "name": "Mistrare AS",
     "stats": {
       "base": {
         "PWR": 221,
@@ -13635,7 +13770,7 @@
     }
   },
   {
-    "name": "Renri AS",
+    "name": "Renri AS",
     "stats": {
       "base": {
         "PWR": 221,
@@ -13770,7 +13905,7 @@
     }
   },
   {
-    "name": "Ewella AS",
+    "name": "Ewella AS",
     "stats": {
       "base": {
         "PWR": 221,
@@ -14040,7 +14175,7 @@
     }
   },
   {
-    "name": "Heena AS",
+    "name": "Heena AS",
     "stats": {
       "base": {
         "PWR": 221,
@@ -14850,7 +14985,7 @@
     }
   },
   {
-    "name": "Otoha AS",
+    "name": "Otoha AS",
     "stats": {
       "base": {
         "PWR": 219,
@@ -15525,7 +15660,7 @@
     }
   },
   {
-    "name": "Melina AS",
+    "name": "Melina AS",
     "stats": {
       "base": {
         "PWR": 215,
@@ -15660,7 +15795,7 @@
     }
   },
   {
-    "name": "Anabel ES",
+    "name": "Anabel ES",
     "stats": {
       "base": {
         "PWR": 215,
@@ -16200,7 +16335,7 @@
     }
   },
   {
-    "name": "Cetie AS",
+    "name": "Cetie AS",
     "stats": {
       "base": {
         "PWR": 213,
@@ -16470,7 +16605,7 @@
     }
   },
   {
-    "name": "Sheila AS",
+    "name": "Sheila AS",
     "stats": {
       "base": {
         "PWR": 213,
@@ -16875,7 +17010,7 @@
     }
   },
   {
-    "name": "Ruina AS",
+    "name": "Ruina AS",
     "stats": {
       "base": {
         "PWR": 213,
@@ -17280,7 +17415,7 @@
     }
   },
   {
-    "name": "Parisa AS",
+    "name": "Parisa AS",
     "stats": {
       "base": {
         "PWR": 211,
@@ -17415,7 +17550,7 @@
     }
   },
   {
-    "name": "Felmina AS",
+    "name": "Felmina AS",
     "stats": {
       "base": {
         "PWR": 211,
@@ -18090,141 +18225,6 @@
     }
   },
   {
-    "name": "Shigure",
-    "stats": {
-      "base": {
-        "PWR": 211,
-        "INT": 137,
-        "SPD": 206,
-        "SPR": 171,
-        "END": 172,
-        "LCK": 204,
-        "HP": 3363,
-        "MP": 494
-      },
-      "ls5": {
-        "PWR": 211,
-        "INT": 137,
-        "SPD": 211,
-        "SPR": 171,
-        "END": 172,
-        "LCK": 204,
-        "HP": 3363,
-        "MP": 494
-      },
-      "ls15": {
-        "PWR": 211,
-        "INT": 137,
-        "SPD": 211,
-        "SPR": 171,
-        "END": 182,
-        "LCK": 204,
-        "HP": 3363,
-        "MP": 494
-      },
-      "ls30": {
-        "PWR": 211,
-        "INT": 137,
-        "SPD": 211,
-        "SPR": 171,
-        "END": 182,
-        "LCK": 204,
-        "HP": 3563,
-        "MP": 494
-      },
-      "ls50": {
-        "PWR": 211,
-        "INT": 137,
-        "SPD": 211,
-        "SPR": 171,
-        "END": 182,
-        "LCK": 219,
-        "HP": 3563,
-        "MP": 494
-      },
-      "ls75": {
-        "PWR": 226,
-        "INT": 137,
-        "SPD": 211,
-        "SPR": 171,
-        "END": 182,
-        "LCK": 219,
-        "HP": 3563,
-        "MP": 494
-      },
-      "ls105": {
-        "PWR": 226,
-        "INT": 137,
-        "SPD": 231,
-        "SPR": 171,
-        "END": 182,
-        "LCK": 219,
-        "HP": 3563,
-        "MP": 494
-      },
-      "ls140": {
-        "PWR": 226,
-        "INT": 137,
-        "SPD": 231,
-        "SPR": 171,
-        "END": 202,
-        "LCK": 219,
-        "HP": 3563,
-        "MP": 494
-      },
-      "ls175": {
-        "PWR": 226,
-        "INT": 137,
-        "SPD": 231,
-        "SPR": 171,
-        "END": 202,
-        "LCK": 219,
-        "HP": 3963,
-        "MP": 494
-      },
-      "ls215": {
-        "PWR": 226,
-        "INT": 137,
-        "SPD": 231,
-        "SPR": 171,
-        "END": 202,
-        "LCK": 244,
-        "HP": 3963,
-        "MP": 494
-      },
-      "ls255": {
-        "PWR": 266,
-        "INT": 147,
-        "SPD": 241,
-        "SPR": 181,
-        "END": 212,
-        "LCK": 254,
-        "HP": 3963,
-        "MP": 494
-      },
-      "ls80sa": {
-        "PWR": 226,
-        "INT": 137,
-        "SPD": 211,
-        "SPR": 171,
-        "END": 182,
-        "LCK": 219,
-        "HP": 3563,
-        "MP": 494
-      },
-      "ls255sa": {
-        "PWR": 266,
-        "INT": 147,
-        "SPD": 241,
-        "SPR": 181,
-        "END": 212,
-        "LCK": 254,
-        "HP": 3963,
-        "MP": 494
-      }
-    }
-  },
-  {
     "name": "Shion",
     "stats": {
       "base": {
@@ -18360,7 +18360,142 @@
     }
   },
   {
-    "name": "Shion ES",
+    "name": "Shigure",
+    "stats": {
+      "base": {
+        "PWR": 211,
+        "INT": 137,
+        "SPD": 206,
+        "SPR": 171,
+        "END": 172,
+        "LCK": 204,
+        "HP": 3363,
+        "MP": 494
+      },
+      "ls5": {
+        "PWR": 211,
+        "INT": 137,
+        "SPD": 211,
+        "SPR": 171,
+        "END": 172,
+        "LCK": 204,
+        "HP": 3363,
+        "MP": 494
+      },
+      "ls15": {
+        "PWR": 211,
+        "INT": 137,
+        "SPD": 211,
+        "SPR": 171,
+        "END": 182,
+        "LCK": 204,
+        "HP": 3363,
+        "MP": 494
+      },
+      "ls30": {
+        "PWR": 211,
+        "INT": 137,
+        "SPD": 211,
+        "SPR": 171,
+        "END": 182,
+        "LCK": 204,
+        "HP": 3563,
+        "MP": 494
+      },
+      "ls50": {
+        "PWR": 211,
+        "INT": 137,
+        "SPD": 211,
+        "SPR": 171,
+        "END": 182,
+        "LCK": 219,
+        "HP": 3563,
+        "MP": 494
+      },
+      "ls75": {
+        "PWR": 226,
+        "INT": 137,
+        "SPD": 211,
+        "SPR": 171,
+        "END": 182,
+        "LCK": 219,
+        "HP": 3563,
+        "MP": 494
+      },
+      "ls105": {
+        "PWR": 226,
+        "INT": 137,
+        "SPD": 231,
+        "SPR": 171,
+        "END": 182,
+        "LCK": 219,
+        "HP": 3563,
+        "MP": 494
+      },
+      "ls140": {
+        "PWR": 226,
+        "INT": 137,
+        "SPD": 231,
+        "SPR": 171,
+        "END": 202,
+        "LCK": 219,
+        "HP": 3563,
+        "MP": 494
+      },
+      "ls175": {
+        "PWR": 226,
+        "INT": 137,
+        "SPD": 231,
+        "SPR": 171,
+        "END": 202,
+        "LCK": 219,
+        "HP": 3963,
+        "MP": 494
+      },
+      "ls215": {
+        "PWR": 226,
+        "INT": 137,
+        "SPD": 231,
+        "SPR": 171,
+        "END": 202,
+        "LCK": 244,
+        "HP": 3963,
+        "MP": 494
+      },
+      "ls255": {
+        "PWR": 266,
+        "INT": 147,
+        "SPD": 241,
+        "SPR": 181,
+        "END": 212,
+        "LCK": 254,
+        "HP": 3963,
+        "MP": 494
+      },
+      "ls80sa": {
+        "PWR": 226,
+        "INT": 137,
+        "SPD": 211,
+        "SPR": 171,
+        "END": 182,
+        "LCK": 219,
+        "HP": 3563,
+        "MP": 494
+      },
+      "ls255sa": {
+        "PWR": 266,
+        "INT": 147,
+        "SPD": 241,
+        "SPR": 181,
+        "END": 212,
+        "LCK": 254,
+        "HP": 3963,
+        "MP": 494
+      }
+    }
+  },
+  {
+    "name": "Shion ES",
     "stats": {
       "base": {
         "PWR": 211,
@@ -18765,7 +18900,7 @@
     }
   },
   {
-    "name": "Akane AS",
+    "name": "Akane AS",
     "stats": {
       "base": {
         "PWR": 209,
@@ -20520,7 +20655,7 @@
     }
   },
   {
-    "name": "Yukino AS",
+    "name": "Yukino AS",
     "stats": {
       "base": {
         "PWR": 204,
@@ -20925,7 +21060,7 @@
     }
   },
   {
-    "name": "Elseal AS",
+    "name": "Elseal AS",
     "stats": {
       "base": {
         "PWR": 204,
@@ -21060,7 +21195,7 @@
     }
   },
   {
-    "name": "Ciel AS",
+    "name": "Ciel AS",
     "stats": {
       "base": {
         "PWR": 203,
@@ -21195,7 +21330,7 @@
     }
   },
   {
-    "name": "Claude AS",
+    "name": "Claude AS",
     "stats": {
       "base": {
         "PWR": 203,
@@ -22005,7 +22140,7 @@
     }
   },
   {
-    "name": "Nona AS",
+    "name": "Nona AS",
     "stats": {
       "base": {
         "PWR": 201,
@@ -22410,7 +22545,7 @@
     }
   },
   {
-    "name": "Laclair AS",
+    "name": "Laclair AS",
     "stats": {
       "base": {
         "PWR": 201,
@@ -22680,7 +22815,7 @@
     }
   },
   {
-    "name": "Foran AS",
+    "name": "Foran AS",
     "stats": {
       "base": {
         "PWR": 201,
@@ -22815,7 +22950,7 @@
     }
   },
   {
-    "name": "Isuka AS",
+    "name": "Isuka AS",
     "stats": {
       "base": {
         "PWR": 201,
@@ -23220,7 +23355,7 @@
     }
   },
   {
-    "name": "Claude ES",
+    "name": "Claude ES",
     "stats": {
       "base": {
         "PWR": 198,
@@ -24705,7 +24840,7 @@
     }
   },
   {
-    "name": "Milsha AS",
+    "name": "Milsha AS",
     "stats": {
       "base": {
         "PWR": 193,
@@ -25650,7 +25785,7 @@
     }
   },
   {
-    "name": "Orleya AS",
+    "name": "Orleya AS",
     "stats": {
       "base": {
         "PWR": 187,
@@ -25920,7 +26055,7 @@
     }
   },
   {
-    "name": "Miyu ES",
+    "name": "Miyu ES",
     "stats": {
       "base": {
         "PWR": 185,
@@ -26190,7 +26325,7 @@
     }
   },
   {
-    "name": "Necoco AS",
+    "name": "Necoco AS",
     "stats": {
       "base": {
         "PWR": 185,
@@ -26325,7 +26460,7 @@
     }
   },
   {
-    "name": "Tsukiha AS",
+    "name": "Tsukiha AS",
     "stats": {
       "base": {
         "PWR": 185,
@@ -26730,7 +26865,7 @@
     }
   },
   {
-    "name": "Kikyo AS",
+    "name": "Kikyo AS",
     "stats": {
       "base": {
         "PWR": 177,
@@ -26865,7 +27000,7 @@
     }
   },
   {
-    "name": "Soira AS",
+    "name": "Soira AS",
     "stats": {
       "base": {
         "PWR": 176,
@@ -27135,7 +27270,7 @@
     }
   },
   {
-    "name": "Necoco ES",
+    "name": "Necoco ES",
     "stats": {
       "base": {
         "PWR": 169,
@@ -27675,7 +27810,7 @@
     }
   },
   {
-    "name": "Radias AS",
+    "name": "Radias AS",
     "stats": {
       "base": {
         "PWR": 164,
@@ -28215,7 +28350,7 @@
     }
   },
   {
-    "name": "Yipha AS",
+    "name": "Yipha AS",
     "stats": {
       "base": {
         "PWR": 157,
@@ -28620,7 +28755,7 @@
     }
   },
   {
-    "name": "Toova AS",
+    "name": "Toova AS",
     "stats": {
       "base": {
         "PWR": 155,
@@ -29160,7 +29295,7 @@
     }
   },
   {
-    "name": "Mighty AS",
+    "name": "Mighty AS",
     "stats": {
       "base": {
         "PWR": 149,
@@ -29295,7 +29430,7 @@
     }
   },
   {
-    "name": "Clarte AS",
+    "name": "Clarte AS",
     "stats": {
       "base": {
         "PWR": 148,
@@ -29565,7 +29700,7 @@
     }
   },
   {
-    "name": "Myrus AS",
+    "name": "Myrus AS",
     "stats": {
       "base": {
         "PWR": 147,
@@ -30780,7 +30915,7 @@
     }
   },
   {
-    "name": "Chiyo AS",
+    "name": "Chiyo AS",
     "stats": {
       "base": {
         "PWR": 145,
@@ -30915,7 +31050,7 @@
     }
   },
   {
-    "name": "Rosetta AS",
+    "name": "Rosetta AS",
     "stats": {
       "base": {
         "PWR": 145,
@@ -31050,7 +31185,7 @@
     }
   },
   {
-    "name": "Mariel ES",
+    "name": "Mariel ES",
     "stats": {
       "base": {
         "PWR": 144,
@@ -31185,7 +31320,7 @@
     }
   },
   {
-    "name": "Nagi ES",
+    "name": "Nagi ES",
     "stats": {
       "base": {
         "PWR": 144,
@@ -31320,7 +31455,7 @@
     }
   },
   {
-    "name": "Dunarith AS",
+    "name": "Dunarith AS",
     "stats": {
       "base": {
         "PWR": 143,
@@ -31995,7 +32130,7 @@
     }
   },
   {
-    "name": "Saki AS",
+    "name": "Saki AS",
     "stats": {
       "base": {
         "PWR": 137,
@@ -32400,7 +32535,7 @@
     }
   },
   {
-    "name": "Flammelapis AS",
+    "name": "Flammelapis AS",
     "stats": {
       "base": {
         "PWR": 137,
@@ -32805,7 +32940,7 @@
     }
   },
   {
-    "name": "Gariyu AS",
+    "name": "Gariyu AS",
     "stats": {
       "base": {
         "PWR": 137,
@@ -32940,7 +33075,7 @@
     }
   },
   {
-    "name": "Melody AS",
+    "name": "Melody AS",
     "stats": {
       "base": {
         "PWR": 137,
@@ -33210,7 +33345,7 @@
     }
   },
   {
-    "name": "Levia AS",
+    "name": "Levia AS",
     "stats": {
       "base": {
         "PWR": 137,
@@ -33345,7 +33480,7 @@
     }
   },
   {
-    "name": "Mariel AS",
+    "name": "Mariel AS",
     "stats": {
       "base": {
         "PWR": 136,
@@ -33750,7 +33885,7 @@
     }
   },
   {
-    "name": "Yuna AS",
+    "name": "Yuna AS",
     "stats": {
       "base": {
         "PWR": 136,
@@ -34020,7 +34155,7 @@
     }
   },
   {
-    "name": "Veina AS",
+    "name": "Veina AS",
     "stats": {
       "base": {
         "PWR": 129,
@@ -34290,7 +34425,7 @@
     }
   },
   {
-    "name": "Lele AS",
+    "name": "Lele AS",
     "stats": {
       "base": {
         "PWR": 129,
@@ -34560,7 +34695,7 @@
     }
   },
   {
-    "name": "Radica AS",
+    "name": "Radica AS",
     "stats": {
       "base": {
         "PWR": 129,
@@ -34695,7 +34830,7 @@
     }
   },
   {
-    "name": "Yakumo AS",
+    "name": "Yakumo AS",
     "stats": {
       "base": {
         "PWR": 129,
@@ -35640,7 +35775,7 @@
     }
   },
   {
-    "name": "Jet Tactician (Another Style) AS",
+    "name": "Jet Tactician (Another Style) AS",
     "stats": {
       "base": {
         "PWR": 129,
@@ -36045,7 +36180,7 @@
     }
   },
   {
-    "name": "Pom AS",
+    "name": "Pom AS",
     "stats": {
       "base": {
         "PWR": 128,
@@ -36180,7 +36315,7 @@
     }
   },
   {
-    "name": "Feinne AS",
+    "name": "Feinne AS",
     "stats": {
       "base": {
         "PWR": 128,
@@ -36585,7 +36720,7 @@
     }
   },
   {
-    "name": "Krervo AS",
+    "name": "Krervo AS",
     "stats": {
       "base": {
         "PWR": 128,
