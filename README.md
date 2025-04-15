@@ -1,8 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Another Eden Character Stats Comparison
+
+A Next.js application to compare and visualize Another Eden characters' stats.
+
+## Features
+
+- Compare up to 4 characters simultaneously
+- Interactive radar chart visualization of character stats (PWR, INT, SPD, END, SPR, LCK)
+- Separate HP and MP comparison with visual bars
+- Compare stats at different Light/Shadow points (from base to 255)
+- Responsive design for both desktop and mobile
 
 ## Getting Started
 
-First, run the development server:
+First, install the dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
+```
+
+Then, run the development server:
 
 ```bash
 npm run dev
@@ -16,21 +38,20 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scraper Script
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+There is a script to scrape character data from the official Another Eden wiki. The script is located in the `scripts/index.mjs`. To run the scraper, navigate to the `scripts` directory and execute:
 
-## Learn More
+```bash
+npm run scrape
+```
 
-To learn more about Next.js, take a look at the following resources:
+This will replace the `characters.json` file in data directory with the latest data from the wiki. Make sure to have Node.js installed and the necessary permissions to write to the file.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- TypeScript
+- Recharts for data visualization
+- Tailwind CSS for styling
+- shadcn/ui for UI components
