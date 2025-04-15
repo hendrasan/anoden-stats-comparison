@@ -57,5 +57,3 @@ export const getMaxStatValuesPerLevelKey = () => {
     };
   }, {} as Record<StatLevelKey, { HP: number; MP: number; mainStat: number }>);
 };
-
-console.log(getMaxStatValuesPerLevelKey());

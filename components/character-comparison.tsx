@@ -16,6 +16,7 @@ import {
     SelectTrigger,
     SelectValue,
 } from "@/components/ui/select"
+import { sendGAEvent } from "@next/third-parties/google";
 
 export default function CharacterComparison() {
     const [includeHpMp, setIncludeHpMp] = useState(false);
@@ -28,6 +29,10 @@ export default function CharacterComparison() {
         const newSelectedCharacters = [...selectedCharacters]
         newSelectedCharacters[index] = character;
         setSelectedCharacters(newSelectedCharacters);
+
+        sendGAEvent('event', 'characterSelected', {
+            value: character.name,
+        });
     }
 
     const handleAddCharacter = () => {
